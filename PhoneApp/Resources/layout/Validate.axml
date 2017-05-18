@@ -4,35 +4,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:text="Ingrese un nro de telefono:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Correo:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView1" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/PhoneNumberText"
-        android:text="1-855-XAMARIN" />
-    <Button
-        android:text="Convertir"
+        android:id="@+id/EmailText" />
+    <TextView
+        android:text="Contraseña:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/TranslateButton" />
-    <Button
-        android:text="Llamar"
+        android:id="@+id/textView2" />
+    <EditText
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/CallButton" />
+        android:id="@+id/PasswordText" />
     <Button
-        android:text="@string/CallHistory"
+        android:text="Validar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/CallHistoryButton"
-        android:enabled="false" />
-    <Button
-        android:text="Validar Actividar"
+        android:id="@+id/ValidateButton" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ValidateActivityButton" />
+        android:id="@+id/ResultTextView"
+        android:padding="50px"
+        android:textColor="@android:color/holo_green_light" />
 </LinearLayout>

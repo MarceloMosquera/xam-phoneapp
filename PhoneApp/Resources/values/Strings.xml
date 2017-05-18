@@ -3,4 +3,5 @@
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">PhoneApp</string>
     <string name="CallHistory">Historial de llamadas</string>
+    <string name="ValidateActivity">Validar Actividar</string>
 </resources>
