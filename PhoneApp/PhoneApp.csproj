@@ -58,8 +58,9 @@
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="SALLab06">
-      <HintPath>..\..\Lab06\SALLab06.dll</HintPath>
+    <Reference Include="SALLab06, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SALLab06.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
